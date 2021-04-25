@@ -17,13 +17,9 @@ Mentor-Connect is a web-app that aims to match mentors with students, where stud
 In command line:
 ```console
 $ npm install
-$ npm run serve
+$ npm start
 ```
-In a separate shell:
-```console
-$ npm run awesome
-```
-then you will find the application at `localhost:8080` in the browser
+then you will find the application at `localhost:3000` in the browser
 
 ### Authorship:
 * **Aashi Shah** (https://devpost.com/aashi_shah)
@@ -31,7 +27,6 @@ then you will find the application at `localhost:8080` in the browser
 * **Shruti Gupta** (https://devpost.com/shrutigupta5555)
 * **Tiffany Trinh** (https://devpost.com/tiffanytrinh685)
 
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
