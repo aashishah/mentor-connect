@@ -180,18 +180,24 @@ button {
     background: var(--clr-button);
     margin: 2rem auto 0 auto;
     text-transform: capitalize;
-    
-    padding: 0.5rem 1.75rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 2.75rem;
     letter-spacing: var(--spacing);
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
+    font-family: var(--font-familiy-h1);
   }
+
+button:hover {
+  opacity: 0.9;
+}
 
 /* user find mentors */
 .dashboard {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: center;
   
 }
 
@@ -222,7 +228,7 @@ button {
   width: 90%;
   margin: 0 auto;
   border-radius: 8px;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
   align-items: center;
 }
 
@@ -243,11 +249,71 @@ button {
 .name {
   font-family: var(--font-family);
   color: var(--clr-white);
-  
+  margin-top: 20px;
 }
 .most-recent-text{
   color: var(--clr-text);
 }
 
+.match-container {
+  width: auto;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
 
+.your-match-container{
+  height: 100vh;
+  /* background-color: var(--clr-accent); */
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
 
+.card-1,.card-2 {
+  flex-basis: 0.1;
+  position: relative;
+  /* background-color: lightsalmon; */
+}
+
+.img-container{
+  background-color: var(--clr-dark-accent);
+  width: 20vw;
+  height: auto;
+  min-width: 300px;
+  padding: 0 2rem;
+  display: flex;
+}
+
+.img-container img{
+  
+  height: auto;
+  width: 20vw;
+  min-width: 200px;
+
+  object-fit:contain;
+  justify-content: center;
+  z-index: 0;
+}
+
+.m-container {
+  background-color: var(--clr-accent);
+  
+}
+
+.profile-desc {
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  padding: 0.75rem 2.5rem 0 2.5rem;
+  margin-top: -10px;
+  z-index: 1;
+  width: 20vw;
+  min-width: 300px;
+}
+
+.profile-desc p {
+  color: black;
+}
