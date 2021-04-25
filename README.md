@@ -1,3 +1,32 @@
+# Mentor-Connect (INSERT DEPLOYMENT LINK)
+
+## ChatConnectCreate Team
+
+### Demo Video (INSERT YOUTUBE LINK)
+
+### Purpose and Functionality
+Mentor-Connect is a web-app that aims to match mentors with students, where students have the option of choosing to match anonymously or based on a set of parameters. 
+
+#### Features
+- Chat system
+- Show matches based on database
+- Switch between anonymous and parameter based matching
+- Signup as a mentor/ student
+
+### Instructions to Run Locally:
+In command line:
+```console
+$ npm install
+$ npm start
+```
+then you will find the application at `localhost:3000` in the browser
+
+### Authorship:
+* **Aashi Shah** (https://devpost.com/aashi_shah)
+* **Jianna Mariel Caronan** (https://devpost.com/jiannamariel)
+* **Shruti Gupta** (https://devpost.com/shrutigupta5555)
+* **Tiffany Trinh** (https://devpost.com/tiffanytrinh685)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
