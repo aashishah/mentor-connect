@@ -1,11 +1,11 @@
-# Mentor-Connect (INSERT DEPLOYMENT LINK)
+# CounselConnect (INSERT DEPLOYMENT LINK)
 
 ## ChatConnectCreate Team
 
 ### Demo Video (INSERT YOUTUBE LINK)
 
 ### Purpose and Functionality
-Mentor-Connect is a web-app that aims to match mentors with students, where students have the option of choosing to match anonymously or based on a set of parameters. 
+CounselConnect is a web-app that aims to match mentors with students, where students have the option of choosing to match anonymously or based on a set of parameters. 
 
 #### Features
 - Chat system
